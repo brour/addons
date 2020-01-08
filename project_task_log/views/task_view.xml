@@ -16,7 +16,7 @@
                                 <field name="old_stage_id"/>
                                 <field name="user_id"/>
                                 <field name="stage_id"/>
-                                <field name="duration" widget="time_delta"/>
+                                <field name="duration" widget="time_delta" options="{'mask_humanize_string': 'mo,w,d,h,m'}"/>
                             </tree>
                         </field>
                     </page>
